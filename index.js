@@ -35,3 +35,5 @@ let myQuestions = [
 myQuestions.forEach((value) => {
   myQuiz(value.question, value.answer);
 });
+
+console.log(`Your score is : `, myCounter);
